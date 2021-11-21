@@ -10,6 +10,229 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+namespace RX.Internal.Operators
+{
+    partial class OnSubscribeDoOnEach
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class CompletableFlatMapSingleToCompletable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.ICompletableSubscriber)p1);
+        }
+    }
+
+    partial class SingleFromFuture
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeFlatMapSingle
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeFlatMapCompletable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleFromObservable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleLiftObservableOperator
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeCreate
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleObserveOn
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class CompletableFromEmitter
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.ICompletableSubscriber)p1);
+        }
+    }
+
+    partial class SingleOnErrorReturn
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleTakeUntilCompletable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleTakeUntilObservable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleTakeUntilSingle
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleTimeout
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleToObservable
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleFromEmitter
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleFromCallable
+    {
+
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class SingleDoOnUnsubscribe
+    {
+
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeToMultimap : RX.Functions.IFunc0
+    {
+        public Java.Lang.Object Call()
+        {
+            return (Java.Lang.Object)CallX();
+        }
+
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleDoOnSubscribe
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeToMap : RX.Functions.IFunc0
+    {
+        public Java.Lang.Object Call()
+        {
+            return (Java.Lang.Object)CallX();
+        }
+
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleDoOnEvent
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeSwitchIfEmpty
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class SingleDelay
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.SingleSubscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeSkipTimed
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+}
+
 namespace RX.Observables
 {
     partial class AsyncOnSubscribe
@@ -44,7 +267,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -68,7 +291,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -76,7 +299,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -92,7 +315,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -100,7 +323,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -108,7 +331,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -116,7 +339,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -124,7 +347,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -132,7 +355,7 @@ namespace RX.Internal.Operators
     {
         public unsafe void Call(Java.Lang.Object p0)
         {
-            Call((RX.Completable.ICompletableSubscriber)p0);
+            Call((RX.ICompletableSubscriber)p0);
         }
     }
 
@@ -478,9 +701,10 @@ namespace RX.Internal.Operators
         {
             return Call((RX.Subscriber)p0);
         }
+
         public Java.Lang.Object Call(Java.Lang.Object p0, Java.Lang.Object p1)
         {
-            return TryCall(p0, p1);
+            return CallX(p0, p1);
         }
     }
 
@@ -1081,52 +1305,6 @@ namespace RX.Internal.Operators
         public unsafe void Call(Java.Lang.Object p0)
         {
             Call((RX.Subscriber)p0);
-        }
-    }
-}
-
-namespace RX.Internal.Util.Unsafe
-{
-    partial class ConcurrentCircularArrayQueueL0Pad
-    {
-        internal static IntPtr java_class_handle;
-        internal static IntPtr class_ref
-        {
-            get
-            {
-                return JNIEnv.FindClass("rx/internal/util/unsafe/ConcurrentCircularArrayQueueL0Pad", ref java_class_handle);
-            }
-        }
-
-        protected override IntPtr ThresholdClass
-        {
-            get { return class_ref; }
-        }
-
-        protected override global::System.Type ThresholdType
-        {
-            get { return typeof(ConcurrentCircularArrayQueueL0Pad); }
-        }
-    }
-    partial class BaseLinkedQueuePad0
-    {
-        internal static IntPtr java_class_handle;
-        internal static IntPtr class_ref
-        {
-            get
-            {
-                return JNIEnv.FindClass("rx/internal/util/unsafe/BaseLinkedQueuePad0", ref java_class_handle);
-            }
-        }
-
-        protected override IntPtr ThresholdClass
-        {
-            get { return class_ref; }
-        }
-
-        protected override global::System.Type ThresholdType
-        {
-            get { return typeof(BaseLinkedQueuePad0); }
         }
     }
 }

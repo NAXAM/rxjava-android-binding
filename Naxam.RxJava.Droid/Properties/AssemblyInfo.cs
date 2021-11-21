@@ -8,9 +8,9 @@ using Android.App;
 [assembly: AssemblyTitle("Naxam.RxJava.Droid")]
 [assembly: AssemblyDescription("Xamarin Binding Library - RxJava")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NAXAM COMPANY LIMITED")]
+[assembly: AssemblyCompany("NewWave Solutions JSC")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Copyright (c) 2017 NAXAM")]
+[assembly: AssemblyCopyright("Copyright (c) 2021 NewWave")]
 [assembly: AssemblyTrademark("NAXAM")]
 [assembly: AssemblyCulture("")]
 
@@ -18,7 +18,7 @@ using Android.App;
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
-[assembly: AssemblyVersion("1.1.8")]
+[assembly: AssemblyVersion("1.3.0")]
 
 // The following attributes are used to specify the signing key for the assembly, 
 // if desired. See the Mono documentation for more information about signing.
