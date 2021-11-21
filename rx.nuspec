@@ -3,13 +3,13 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.RxJava.Droid</id>
-        <version>1.3.0-pre1</version>
+        <version>1.3.8-pre1</version>
         <description>Xamarin Binding Library - RxJava</description>
         <authors>tuyen</authors>
         <owners>tuyen</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - RxJava</title>
-        <releaseNotes>RxJava v1.3.0</releaseNotes>
+        <releaseNotes>RxJava v1.3.8</releaseNotes>
         <summary>Xamarin Binding Library - RxJava</summary>
         <license type="expression">MIT</license>
         <projectUrl>https://github.com/NAXAM/rxjava-android-binding</projectUrl>

@@ -12,6 +12,30 @@ using Android.Widget;
 
 namespace RX.Internal.Operators
 {
+    partial class OperatorGroupByEvicting
+    {
+        public Java.Lang.Object Call(Java.Lang.Object p1)
+        {
+            return Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeTimeoutSelectorWithFallback
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
+    partial class OnSubscribeTimeoutTimedWithFallback
+    {
+        public void Call(Java.Lang.Object p1)
+        {
+            Call((global::RX.Subscriber)p1);
+        }
+    }
+
     partial class OnSubscribeDoOnEach
     {
         public void Call(Java.Lang.Object p1)
